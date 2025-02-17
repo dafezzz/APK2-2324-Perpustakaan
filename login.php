@@ -6,7 +6,7 @@ if (@$_SESSION['email']) {
     if (@$_SESSION['level'] == "Admin") { header("location:../admin/index.php");
     } elseif (@$_SESSION['level'] == "user") {
         header("location:../user/index.php");
-    } elseif (@$_SESSION['level'] == "karyawan") {
+    } elseif (@$_SESSION['level'] == "pustakawan") {
         header("location:../pustakawan/index.php");
     }
 }
@@ -49,8 +49,8 @@ if (isset($_POST['login'])) {
                 header("location:../admin/index.php");
             } elseif ($_SESSION['level'] == "user") {
                 header("location:../user/index.php");
-            } elseif ($_SESSION['level'] == "Penyewa") {
-                header("location:../penyewa/index.php");
+            } elseif ($_SESSION['level'] == "Pustakawan") {
+                header("location:../pustakawan/index.php");
             }
             die();
         } else {
