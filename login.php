@@ -74,7 +74,7 @@ if (isset($_POST['login'])) {
 <html lang="en" class="h-100">
 
 
-<!-- Mirrored from demo.themefisher.com/focus-bootstrap/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Oct 2024 01:31:32 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
